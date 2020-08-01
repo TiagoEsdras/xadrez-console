@@ -1,4 +1,7 @@
-﻿namespace tabuleiro
+﻿using System.CodeDom;
+using System.Collections.ObjectModel;
+
+namespace tabuleiro
 {
     class Posicao
     {
@@ -9,6 +12,12 @@
         {
             this.Linha = linha;
             this.Coluna = coluna;
+        }
+
+        public void DefinirValores(int linha, int coluna)
+        {
+            Linha = linha;
+            Coluna = coluna;
         }
 
         public override string ToString()
