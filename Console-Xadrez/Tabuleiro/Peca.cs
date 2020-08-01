@@ -14,5 +14,9 @@
             this.Cor = cor;
             this.QntMovimentos = 0;
         }
+        public void IncrementarQteMovimentos()
+        {
+            QntMovimentos++;
+        }
     }
 }
