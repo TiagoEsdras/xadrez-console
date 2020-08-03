@@ -1,6 +1,4 @@
-﻿using System.CodeDom;
-using System.Collections.ObjectModel;
-
+﻿
 namespace tabuleiro
 {
     class Posicao
