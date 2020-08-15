@@ -32,7 +32,7 @@ namespace Console_Xadrez
                         Console.Write("Destino: ");
                         Posicao destino = Tela.LerPosicaoXadrez().ToPosicao();
                         partida.ValidarPosicaoDeDestino(origem, destino);
-                        bool posicaoDestino = partida.Tab.Peca(origem).PodeMoverPara(destino);
+                        bool posicaoDestino = partida.Tab.Peca(origem).MovimentoPossivel(destino);
 
                         partida.RealizaJogada(origem, destino);
                     }
